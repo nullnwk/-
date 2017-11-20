@@ -1,0 +1,173 @@
+
+.leTao_nav {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.leTao_nav h2 {
+    width: 100%;
+    text-align: center;
+    background: #006699;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    font-size: 18px;
+    font-family: "新宋体";
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*主体*/
+/*轮播图*/
+.leTao_content .carousel a {
+    width: 100%;
+}
+.leTao_content .carousel img {
+    width: 100%;
+}
+
+/*sore*/
+.shoe {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.shoe img {
+    width: 31%;
+}
+
+/*出售*/
+.sale {
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.sale li:first-child a {
+    float: left;
+    width: 50%;
+    flex: 1;
+}
+
+.sale li:first-child {
+    width: 63%;
+    float: left;
+}
+
+.sale li:first-child img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.sale li:last-child {
+    width: 31%;
+    float: left;
+}
+
+.sale li:last-child img {
+    width: 100%;
+}
+
+/*品牌*/
+.brand{
+    width: 95%;
+    margin: 10px 0 4px 10px;
+    box-sizing: border-box;
+
+
+}
+.brand .b_t{
+    width: 100%;
+
+}
+.b_t img{
+    width: 100%;
+}
+.brand .b_b{
+    width: 100%;
+}
+.b_b a{
+    width: 24%;
+}
+.b_b img{
+    width: 24%;
+}
+
+/*运动*/
+.sport{
+    margin: 10px 0 4px 10px;
+    width: 95%;
+    box-sizing: border-box;
+
+}
+.sport .s_t img{
+    width: 100%;
+}
+.sport .s_b ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.sport .s_b li{
+    width: 48%;
+    text-align: center;
+   box-shadow: 0 0 5px #666;
+    margin-bottom: 10px;
+}
+
+.sport .s_b li p{
+    padding:0 10%;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.sport .s_b li img{
+    width: 100%;
+
+}
+.s_b p span:first-child{
+    color: red;
+}.s_b li p span:last-child{
+    text-decoration: line-through;
+ }
+
+.s_b li a:last-child{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    background: blue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*底部*/
+.leTao_toolbar{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.leTao_toolbar a{
+    width: 25%;
+    flex: 1;
+}
+.leTao_toolbar img{
+    height: 44px;
+    width: auto;
+
+}
